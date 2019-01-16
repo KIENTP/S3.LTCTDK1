@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bài 5</title>
+</head>
+<body>
+<script>
+    var a = parseInt(prompt("Nhập vào điểm kiểm tra 15': "));
+    var b = parseInt(prompt("Nhập vào điểm kiểm tra 1 tiết: "));
+    var c = parseInt(prompt("Nhập vào điểm kiểm tra giữa kì: "));
+    var d = parseInt(prompt("Nhập vào điểm kiểm tra cuối kì: "));
+    var x = (a + b * 2 + c * 2 + d * 3) / 8;
+    if (x >= 8) {
+        alert("học lực giỏi");
+    } else if (x >= 6.5) {
+        alert("học lực khá");
+    } else if (x >= 5) {
+        alert("học lực trung bình");
+    } else {
+        alert("học lực yếu");
+    }
+</script>
+</body>
+</html>
